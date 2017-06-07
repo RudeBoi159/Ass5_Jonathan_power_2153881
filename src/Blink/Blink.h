@@ -1,4 +1,4 @@
-//BLink modified by Jonathan Power for assignment perposes 7/6/2017
+//BLink modified by Jonathan Power for assignment perposes 8/6/2017
 #ifndef Blink_h
 #define Blink_h
 
@@ -10,6 +10,7 @@ class Blink
     Blink();
     Blink(int);
     void oneSec();
+    void twoSec();
   private :
     int led;
     

@@ -1,4 +1,4 @@
-//BLink modified by Jonathan Power for assignment perposes 7/6/2017
+//BLink modified by Jonathan Power for assignment perposes 8/6/2017
 #include "Blink.h"
 
 int led = 13;
@@ -9,5 +9,5 @@ void setup() {
 }
 
 void loop() {
-  blink.oneSec();
+  blink.twoSec();
 }

@@ -1,4 +1,4 @@
-//BLink modified by Jonathan Power for assignment perposes 7/6/2017
+//BLink modified by Jonathan Power for assignment perposes 8/6/2017
 
 
 
@@ -16,5 +16,14 @@ void Blink::oneSec(){
   delay(1000);              
   digitalWrite(led, LOW);    
   delay(1000);               
+
+}
+//------------------------------------------------------------------
+void Blink::twoSec(){
+  
+  digitalWrite(led, HIGH);
+  delay(2000);              
+  digitalWrite(led, LOW);    
+  delay(2000);               
 
 }
